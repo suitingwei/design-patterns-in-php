@@ -12,10 +12,20 @@ class Core
 
 class Cloth
 {
+    private $core;
+
+    public function __construct(Core $core)
+    {
+        $this->core = $core;
+    }
+
     public function handle()
     {
-
+        $this->core->handle();
+        echo " i am the cloth<br>";
     }
 }
+
+(new Cloth(new Core()))->handle();
 	
 

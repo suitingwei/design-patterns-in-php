@@ -1,0 +1,17 @@
+{
+    "name": "sui/design-patterns-in-php",
+    "authors": [
+        {
+            "name": "sui",
+            "email": "suitingwei@nanzhuxinyu.com"
+        }
+    ],
+    "require": {},
+	"autoload": {
+		"psr-4": {
+				"Behavioral\\": "behavioral/",
+				"Creational\\": "creational/",
+				"Structural\\": "structural/"
+		}
+	}
+}

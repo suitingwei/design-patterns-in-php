@@ -1,29 +1,6 @@
 <?php
-echo '<h1>Factory Design Pattern</h1>';
 
-class Dwarf
-{
-    public function __construct()
-    {
-        echo 'creating dwarf...<br>';
-    }
-}
-
-class Elf
-{
-    public function __construct()
-    {
-        echo 'creating elf...<br>';
-    }
-}
-
-class Human
-{
-    public function __construct()
-    {
-        echo 'creating human ...<br>';
-    }
-}
+namespace Creational\Factory\Src;
 
 class Factory
 {
@@ -46,7 +23,4 @@ class Factory
     }
 }
 
-$human = Factory::createPeople(Factory::TYPE_HUMAN);
-$elf   = Factory::createPeople(Factory::TYPE_ELF);
-$dwarf = Factory::createPeople(Factory::TYPE_DWARF);
 

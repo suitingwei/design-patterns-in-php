@@ -1,6 +1,6 @@
 <?php
 echo "<h1>Singleton Design Pattern</h1>";
-echo "<h2><a href='../index.php'>Back</a></h2>";
+echo "<h2><a href='../../../index.php'>Back</a></h2>";
 
 
 class Singleton

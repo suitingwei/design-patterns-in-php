@@ -4,7 +4,7 @@
     <li>The Creational Design Patterns
         <ul>
             <li><a href='Creational/factory.php'>Factory Design Pattern</a></li>
-            <li><a href='Creational/singleton.php'>Singleton Design Pattern</a></li>
+            <li><a href='Creational/Singleton/Src/Singleton.php'>Singleton Design Pattern</a></li>
         </ul>
     </li>
 </ul>
